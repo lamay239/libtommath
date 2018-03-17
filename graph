@@ -1,0 +1,258 @@
+   * gcc bncore.o
+   * gcc bn_error.o
+   * gcc bn_fast_mp_invmod.o
+   * gcc bn_fast_mp_montgomery_reduce.o
+   * gcc bn_fast_s_mp_mul_digs.o
+   * gcc bn_fast_s_mp_mul_high_digs.o
+   * gcc bn_fast_s_mp_sqr.o
+   * gcc bn_mp_2expt.o
+   * gcc bn_mp_abs.o
+   * gcc bn_mp_add.o
+   * gcc bn_mp_add_d.o
+   * gcc bn_mp_addmod.o
+   * gcc bn_mp_and.o
+   * gcc bn_mp_clamp.o
+   * gcc bn_mp_clear.o
+   * gcc bn_mp_clear_multi.o
+   * gcc bn_mp_cmp.o
+   * gcc bn_mp_cmp_d.o
+   * gcc bn_mp_cmp_mag.o
+   * gcc bn_mp_cnt_lsb.o
+   * gcc bn_mp_copy.o
+   * gcc bn_mp_count_bits.o
+   * gcc bn_mp_div_2.o
+   * gcc bn_mp_div_2d.o
+   * gcc bn_mp_div_3.o
+   * gcc bn_mp_div.o
+   * gcc bn_mp_div_d.o
+   * gcc bn_mp_dr_is_modulus.o
+   * gcc bn_mp_dr_reduce.o
+   * gcc bn_mp_dr_setup.o
+   * gcc bn_mp_exch.o
+   * gcc bn_mp_export.o
+   * gcc bn_mp_expt_d.o
+   * gcc bn_mp_expt_d_ex.o
+   * gcc bn_mp_exptmod.o
+   * gcc bn_mp_exptmod_fast.o
+   * gcc bn_mp_exteuclid.o
+   * gcc bn_mp_fread.o
+   * gcc bn_mp_fwrite.o
+   * gcc bn_mp_gcd.o
+   * gcc bn_mp_get_int.o
+   * gcc bn_mp_get_long.o
+   * gcc bn_mp_get_long_long.o
+   * gcc bn_mp_grow.o
+   * gcc bn_mp_import.o
+   * gcc bn_mp_init.o
+   * gcc bn_mp_init_copy.o
+   * gcc bn_mp_init_multi.o
+   * gcc bn_mp_init_set.o
+   * gcc bn_mp_init_set_int.o
+   * gcc bn_mp_init_size.o
+   * gcc bn_mp_invmod.o
+   * gcc bn_mp_invmod_slow.o
+   * gcc bn_mp_is_square.o
+   * gcc bn_mp_jacobi.o
+   * gcc bn_mp_karatsuba_mul.o
+   * gcc bn_mp_karatsuba_sqr.o
+   * gcc bn_mp_lcm.o
+   * gcc bn_mp_lshd.o
+   * gcc bn_mp_mod_2d.o
+   * gcc bn_mp_mod.o
+   * gcc bn_mp_mod_d.o
+   * gcc bn_mp_montgomery_calc_normalization.o
+   * gcc bn_mp_montgomery_reduce.o
+   * gcc bn_mp_montgomery_setup.o
+   * gcc bn_mp_mul_2.o
+   * gcc bn_mp_mul_2d.o
+   * gcc bn_mp_mul.o
+   * gcc bn_mp_mul_d.o
+   * gcc bn_mp_mulmod.o
+   * gcc bn_mp_neg.o
+   * gcc bn_mp_n_root.o
+   * gcc bn_mp_n_root_ex.o
+   * gcc bn_mp_or.o
+   * gcc bn_mp_prime_fermat.o
+   * gcc bn_mp_prime_is_divisible.o
+   * gcc bn_mp_prime_is_prime.o
+   * gcc bn_mp_prime_miller_rabin.o
+   * gcc bn_mp_prime_next_prime.o
+   * gcc bn_mp_prime_rabin_miller_trials.o
+   * gcc bn_mp_prime_random_ex.o
+   * gcc bn_mp_radix_size.o
+   * gcc bn_mp_radix_smap.o
+   * gcc bn_mp_rand.o
+   * gcc bn_mp_read_radix.o
+   * gcc bn_mp_read_signed_bin.o
+   * gcc bn_mp_read_unsigned_bin.o
+   * gcc bn_mp_reduce_2k.o
+   * gcc bn_mp_reduce_2k_l.o
+   * gcc bn_mp_reduce_2k_setup.o
+   * gcc bn_mp_reduce_2k_setup_l.o
+   * gcc bn_mp_reduce.o
+   * gcc bn_mp_reduce_is_2k.o
+   * gcc bn_mp_reduce_is_2k_l.o
+   * gcc bn_mp_reduce_setup.o
+   * gcc bn_mp_rshd.o
+   * gcc bn_mp_set.o
+   * gcc bn_mp_set_int.o
+   * gcc bn_mp_set_long.o
+   * gcc bn_mp_set_long_long.o
+   * gcc bn_mp_shrink.o
+   * gcc bn_mp_signed_bin_size.o
+   * gcc bn_mp_sqr.o
+   * gcc bn_mp_sqrmod.o
+   * gcc bn_mp_sqrt.o
+   * gcc bn_mp_sqrtmod_prime.o
+   * gcc bn_mp_sub.o
+   * gcc bn_mp_sub_d.o
+   * gcc bn_mp_submod.o
+   * gcc bn_mp_toom_mul.o
+   * gcc bn_mp_toom_sqr.o
+   * gcc bn_mp_toradix.o
+   * gcc bn_mp_toradix_n.o
+   * gcc bn_mp_to_signed_bin.o
+   * gcc bn_mp_to_signed_bin_n.o
+   * gcc bn_mp_to_unsigned_bin.o
+   * gcc bn_mp_to_unsigned_bin_n.o
+   * gcc bn_mp_unsigned_bin_size.o
+   * gcc bn_mp_xor.o
+   * gcc bn_mp_zero.o
+   * gcc bn_prime_tab.o
+   * gcc bn_reverse.o
+   * gcc bn_s_mp_add.o
+   * gcc bn_s_mp_exptmod.o
+   * gcc bn_s_mp_mul_digs.o
+   * gcc bn_s_mp_mul_high_digs.o
+   * gcc bn_s_mp_sqr.o
+   * gcc bn_s_mp_sub.o
+ar rv libtommath.a bncore.o bn_error.o bn_fast_mp_invmod.o bn_fast_mp_montgomery_reduce.o bn_fast_s_mp_mul_digs.o bn_fast_s_mp_mul_high_digs.o bn_fast_s_mp_sqr.o bn_mp_2expt.o bn_mp_abs.o bn_mp_add.o bn_mp_add_d.o bn_mp_addmod.o bn_mp_and.o bn_mp_clamp.o bn_mp_clear.o bn_mp_clear_multi.o bn_mp_cmp.o bn_mp_cmp_d.o bn_mp_cmp_mag.o bn_mp_cnt_lsb.o bn_mp_copy.o bn_mp_count_bits.o bn_mp_div_2.o bn_mp_div_2d.o bn_mp_div_3.o bn_mp_div.o bn_mp_div_d.o bn_mp_dr_is_modulus.o bn_mp_dr_reduce.o bn_mp_dr_setup.o bn_mp_exch.o bn_mp_export.o bn_mp_expt_d.o bn_mp_expt_d_ex.o bn_mp_exptmod.o bn_mp_exptmod_fast.o bn_mp_exteuclid.o bn_mp_fread.o bn_mp_fwrite.o bn_mp_gcd.o bn_mp_get_int.o bn_mp_get_long.o bn_mp_get_long_long.o bn_mp_grow.o bn_mp_import.o bn_mp_init.o bn_mp_init_copy.o bn_mp_init_multi.o bn_mp_init_set.o bn_mp_init_set_int.o bn_mp_init_size.o bn_mp_invmod.o bn_mp_invmod_slow.o bn_mp_is_square.o bn_mp_jacobi.o bn_mp_karatsuba_mul.o bn_mp_karatsuba_sqr.o bn_mp_lcm.o bn_mp_lshd.o bn_mp_mod_2d.o bn_mp_mod.o bn_mp_mod_d.o bn_mp_montgomery_calc_normalization.o bn_mp_montgomery_reduce.o bn_mp_montgomery_setup.o bn_mp_mul_2.o bn_mp_mul_2d.o bn_mp_mul.o bn_mp_mul_d.o bn_mp_mulmod.o bn_mp_neg.o bn_mp_n_root.o bn_mp_n_root_ex.o bn_mp_or.o bn_mp_prime_fermat.o bn_mp_prime_is_divisible.o bn_mp_prime_is_prime.o bn_mp_prime_miller_rabin.o bn_mp_prime_next_prime.o bn_mp_prime_rabin_miller_trials.o bn_mp_prime_random_ex.o bn_mp_radix_size.o bn_mp_radix_smap.o bn_mp_rand.o bn_mp_read_radix.o bn_mp_read_signed_bin.o bn_mp_read_unsigned_bin.o bn_mp_reduce_2k.o bn_mp_reduce_2k_l.o bn_mp_reduce_2k_setup.o bn_mp_reduce_2k_setup_l.o bn_mp_reduce.o bn_mp_reduce_is_2k.o bn_mp_reduce_is_2k_l.o bn_mp_reduce_setup.o bn_mp_rshd.o bn_mp_set.o bn_mp_set_int.o bn_mp_set_long.o bn_mp_set_long_long.o bn_mp_shrink.o bn_mp_signed_bin_size.o bn_mp_sqr.o bn_mp_sqrmod.o bn_mp_sqrt.o bn_mp_sqrtmod_prime.o bn_mp_sub.o bn_mp_sub_d.o bn_mp_submod.o bn_mp_toom_mul.o bn_mp_toom_sqr.o bn_mp_toradix.o bn_mp_toradix_n.o bn_mp_to_signed_bin.o bn_mp_to_signed_bin_n.o bn_mp_to_unsigned_bin.o bn_mp_to_unsigned_bin_n.o bn_mp_unsigned_bin_size.o bn_mp_xor.o bn_mp_zero.o bn_prime_tab.o bn_reverse.o bn_s_mp_add.o bn_s_mp_exptmod.o bn_s_mp_mul_digs.o bn_s_mp_mul_high_digs.o bn_s_mp_sqr.o bn_s_mp_sub.o
+a - bncore.o
+a - bn_error.o
+a - bn_fast_mp_invmod.o
+a - bn_fast_mp_montgomery_reduce.o
+a - bn_fast_s_mp_mul_digs.o
+a - bn_fast_s_mp_mul_high_digs.o
+a - bn_fast_s_mp_sqr.o
+a - bn_mp_2expt.o
+a - bn_mp_abs.o
+a - bn_mp_add.o
+a - bn_mp_add_d.o
+a - bn_mp_addmod.o
+a - bn_mp_and.o
+a - bn_mp_clamp.o
+a - bn_mp_clear.o
+a - bn_mp_clear_multi.o
+a - bn_mp_cmp.o
+a - bn_mp_cmp_d.o
+a - bn_mp_cmp_mag.o
+a - bn_mp_cnt_lsb.o
+a - bn_mp_copy.o
+a - bn_mp_count_bits.o
+a - bn_mp_div_2.o
+a - bn_mp_div_2d.o
+a - bn_mp_div_3.o
+a - bn_mp_div.o
+a - bn_mp_div_d.o
+a - bn_mp_dr_is_modulus.o
+a - bn_mp_dr_reduce.o
+a - bn_mp_dr_setup.o
+a - bn_mp_exch.o
+a - bn_mp_export.o
+a - bn_mp_expt_d.o
+a - bn_mp_expt_d_ex.o
+a - bn_mp_exptmod.o
+a - bn_mp_exptmod_fast.o
+a - bn_mp_exteuclid.o
+a - bn_mp_fread.o
+a - bn_mp_fwrite.o
+a - bn_mp_gcd.o
+a - bn_mp_get_int.o
+a - bn_mp_get_long.o
+a - bn_mp_get_long_long.o
+a - bn_mp_grow.o
+a - bn_mp_import.o
+a - bn_mp_init.o
+a - bn_mp_init_copy.o
+a - bn_mp_init_multi.o
+a - bn_mp_init_set.o
+a - bn_mp_init_set_int.o
+a - bn_mp_init_size.o
+a - bn_mp_invmod.o
+a - bn_mp_invmod_slow.o
+a - bn_mp_is_square.o
+a - bn_mp_jacobi.o
+a - bn_mp_karatsuba_mul.o
+a - bn_mp_karatsuba_sqr.o
+a - bn_mp_lcm.o
+a - bn_mp_lshd.o
+a - bn_mp_mod_2d.o
+a - bn_mp_mod.o
+a - bn_mp_mod_d.o
+a - bn_mp_montgomery_calc_normalization.o
+a - bn_mp_montgomery_reduce.o
+a - bn_mp_montgomery_setup.o
+a - bn_mp_mul_2.o
+a - bn_mp_mul_2d.o
+a - bn_mp_mul.o
+a - bn_mp_mul_d.o
+a - bn_mp_mulmod.o
+a - bn_mp_neg.o
+a - bn_mp_n_root.o
+a - bn_mp_n_root_ex.o
+a - bn_mp_or.o
+a - bn_mp_prime_fermat.o
+a - bn_mp_prime_is_divisible.o
+a - bn_mp_prime_is_prime.o
+a - bn_mp_prime_miller_rabin.o
+a - bn_mp_prime_next_prime.o
+a - bn_mp_prime_rabin_miller_trials.o
+a - bn_mp_prime_random_ex.o
+a - bn_mp_radix_size.o
+a - bn_mp_radix_smap.o
+a - bn_mp_rand.o
+a - bn_mp_read_radix.o
+a - bn_mp_read_signed_bin.o
+a - bn_mp_read_unsigned_bin.o
+a - bn_mp_reduce_2k.o
+a - bn_mp_reduce_2k_l.o
+a - bn_mp_reduce_2k_setup.o
+a - bn_mp_reduce_2k_setup_l.o
+a - bn_mp_reduce.o
+a - bn_mp_reduce_is_2k.o
+a - bn_mp_reduce_is_2k_l.o
+a - bn_mp_reduce_setup.o
+a - bn_mp_rshd.o
+a - bn_mp_set.o
+a - bn_mp_set_int.o
+a - bn_mp_set_long.o
+a - bn_mp_set_long_long.o
+a - bn_mp_shrink.o
+a - bn_mp_signed_bin_size.o
+a - bn_mp_sqr.o
+a - bn_mp_sqrmod.o
+a - bn_mp_sqrt.o
+a - bn_mp_sqrtmod_prime.o
+a - bn_mp_sub.o
+a - bn_mp_sub_d.o
+a - bn_mp_submod.o
+a - bn_mp_toom_mul.o
+a - bn_mp_toom_sqr.o
+a - bn_mp_toradix.o
+a - bn_mp_toradix_n.o
+a - bn_mp_to_signed_bin.o
+a - bn_mp_to_signed_bin_n.o
+a - bn_mp_to_unsigned_bin.o
+a - bn_mp_to_unsigned_bin_n.o
+a - bn_mp_unsigned_bin_size.o
+a - bn_mp_xor.o
+a - bn_mp_zero.o
+a - bn_prime_tab.o
+a - bn_reverse.o
+a - bn_s_mp_add.o
+a - bn_s_mp_exptmod.o
+a - bn_s_mp_mul_digs.o
+a - bn_s_mp_mul_high_digs.o
+a - bn_s_mp_sqr.o
+a - bn_s_mp_sub.o
+ranlib libtommath.a

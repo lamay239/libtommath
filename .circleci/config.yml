@@ -1,46 +1,38 @@
 version: 2
 jobs:
   build-single:
-    docker:
-      - image: ubuntu:trusty
+    machine:
+      image: ubuntu-1604:201903-01
     steps:
       - checkout
       - run: sudo apt-get update
-      - run: sudo apt-get -y install build-essential
-      - run: sudo apt-get -y install libelf-dev
       - run: sudo apt-get -y install wget
       - run: sudo apt-get -y install unzip
       - run: make VARIANT="--single" all
   build-double:
-    docker:
-      - image: ubuntu:trusty
+    machine:
+      image: ubuntu-1604:201903-01
     steps:
       - checkout
       - run: sudo apt-get update
-      - run: sudo apt-get -y install build-essential
-      - run: sudo apt-get -y install libelf-dev
       - run: sudo apt-get -y install wget
       - run: sudo apt-get -y install unzip
       - run: make VARIANT="--double" all
   build-32:
-    docker:
-      - image: ubuntu:trusty
+    machine:
+      image: ubuntu-1604:201903-01
     steps:
       - checkout
       - run: sudo apt-get update
-      - run: sudo apt-get -y install build-essential
-      - run: sudo apt-get -y install libelf-dev
       - run: sudo apt-get -y install wget
       - run: sudo apt-get -y install unzip
       - run: make VARIANT="--32" all
   build-64:
-    docker:
-      - image: ubuntu:trusty
+    machine:
+      image: ubuntu-1604:201903-01
     steps:
       - checkout
       - run: sudo apt-get update
-      - run: sudo apt-get -y install build-essential
-      - run: sudo apt-get -y install libelf-dev
       - run: sudo apt-get -y install wget
       - run: sudo apt-get -y install unzip
       - run: make VARIANT="--64" all
